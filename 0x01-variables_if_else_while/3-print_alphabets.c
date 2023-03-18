@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 /**
  * Program that prints the alphabet in lowercase, followed by Uppecase, followed by a line
- * Returns
+ * *Return: Always 0 (Success)
  */
 int main()
 {
@@ -19,4 +21,5 @@ putchar(c);
 c++;
 }
 putchar('\n');
+return (0);
 }
