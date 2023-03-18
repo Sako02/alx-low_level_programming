@@ -2,10 +2,11 @@
 #include<stdlib.h>
 #include<time.h>
 /**
- * Program that prints the alphabet in lowercase, followed by Uppecase, followed by a line
- * *Return: Always 0 (Success)
+ * Program that prints the alphabet in lowercase,
+ * followed by Uppecase, followed by a line
+ *Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 char c;
 c = 'a';
