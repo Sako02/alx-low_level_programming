@@ -5,7 +5,6 @@
  * @dest: destination memory area
  * @src: memory area to copy from
  * @n: number of bytes to copy
- * Auth: Mouhcine Ezzaidi
  *
  * Return: pointer to dest
  */
