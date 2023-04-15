@@ -7,12 +7,15 @@
  * Return: pointer
  * terminates the program with exit status 98.
  */
+
 void *malloc_checked(unsigned int b)
 {
     void *ptr;
 
     ptr = malloc(b);
     if (ptr == NULL)
-        exit(98);
+    {
+	    exit(98);
+    }
     return (ptr);
 }
