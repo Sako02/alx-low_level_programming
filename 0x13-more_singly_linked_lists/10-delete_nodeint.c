@@ -1,9 +1,11 @@
 #include "lists.h"
 #include <stdlib.h>
+
 /**
- * delete_nodeint_at_index: delete element
- * @head: listint_t's head
- * @index: index to delete
+ * * delete_nodeint_at_index - deletes the node at index
+ * of a linked list.
+ * @head: listint_t's head.
+ * @index: index to delete.
  *
  * Return: new node
  */
@@ -33,7 +35,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		if (m->next == NULL)
 		{
 			free(m);
-			prev->next = NULL;
+			p->next = NULL;
 		}
 		else
 		{
